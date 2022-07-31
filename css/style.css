@@ -67,3 +67,16 @@ nav {
   width: 60px;
   border: 2px solid black;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    width: 99vw;
+    height: 70vh;
+    border: 0;
+  }
+
+  #messageInp{
+    width: 86vw;
+  }
+}
